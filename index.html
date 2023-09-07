@@ -1,0 +1,80 @@
+<html lang="en-us">
+  <link type="text/css" rel="stylesheet" id="dark-mode-custom-link" /><link
+    type="text/css"
+    rel="stylesheet"
+    id="dark-mode-general-link"
+  /><style lang="en" type="text/css" id="dark-mode-custom-style"></style
+  ><style lang="en" type="text/css" id="dark-mode-native-style"></style
+  ><style lang="en" type="text/css" id="dark-mode-native-sheet"></style
+  ><head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Silly story generator</title>
+
+    <style>
+      body {
+        font-family: helvetica, sans-serif;
+        width: 350px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 150px;
+      }
+
+      p {
+        background: #ffc125;
+        color: #5e2612;
+        padding: 10px;
+        visibility: hidden;
+      }
+    </style>
+    <style>
+      [id*="google_ads_iframe"],
+      [id*="taboola-"],
+      .taboolaHeight,
+      .taboola-placeholder,
+      #credential_picker_container,
+      #credentials-picker-container,
+      #credential_picker_iframe,
+      [id*="google-one-tap-iframe"],
+      #google-one-tap-popup-container,
+      .google-one-tap-modal-div,
+      #amp_floatingAdDiv,
+      #ez-content-blocker-container,
+      #notify-adblock {
+        display: none !important;
+        min-height: 0 !important;
+        height: 0 !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="text" placeholder="" />
+    </div>
+    <div>
+      <label for="us">US</label
+      ><input id="us" type="radio" name="ukus" value="us" checked="" />
+      <label for="uk">UK</label
+      ><input id="uk" type="radio" name="ukus" value="uk" />
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    <p class="story"></p>
+    <script src="main.js"></script>
+  </body>
+</html>
